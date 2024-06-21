@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #000000, #000000, #000000, #000000, #000000);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: -2px 7px 10px #000000;
+}
+
+main {
+    background: linear-gradient(to right, #000000, #000000, #868686, #000000, #000000);
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    width: 80%;
+    max-width: 800px; /* Limiting max width */
+    text-shadow: -1px 7px 10px #004d7c;
+    margin: 20px auto;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-shadow: 4px 4px 8px #acacaccb;
+    width: 100%;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+}
+
+header h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-shadow: 4px 4px 8px #acacaccb;
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+}
+
+main .Logo {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: -2px 7px 10px #006e99;
+    margin: 20px 0;
+}
+
+.first_verse, .second_brdge, .bridge_choras, .final_choras, .choras {
+    text-align: left;
+    font-size: 18px;
+}
+
+.bridge, .second_verse, .second_choras, .third_choras {
+    text-align: right;
+    font-size: 18px;
+}
+.second_choras, .bridge_choras, .final_choras, .choras, .third_choras {
+    font-family: 'Rock Salt', cursive;
+    font-weight: 700;
+}
+
+.first_verse, .second_verse, .bridge, .second_brdge {
+    font-family: 'Creepster', cursive;
+}
+
+.choras {
+    text-align: left;
+    font-size: 18px;
+}
+
+.LOGO{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: -3px 9px 15px #ffffff;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .first_verse, .bridge, .second_verse, .second_brdge, .second_choras, .bridge_choras, .third_choras, .final_choras {
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header h3 {
+        font-size: 1.2em;
+    }
+}
